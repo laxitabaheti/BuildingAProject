@@ -1,0 +1,14 @@
+.ul {
+  list-style-type: none;
+  padding: 5px;
+  margin-top: 6px;
+  margin-bottom: 2px;
+}
+.li {
+  width: 93%;
+  color: rgb(36, 35, 35);
+  border: solid rgb(160, 157, 157) 1px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  padding: 5px;
+}
