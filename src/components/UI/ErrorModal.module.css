@@ -1,0 +1,42 @@
+.backdrop {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.884);
+  position: fixed;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+}
+
+.ErrorModal {
+  font: inherit;
+  font-size: inherit;
+  position: fixed;
+  left: 8%;
+  width: 80%;
+  top: 30vh;
+  text-align: center;
+  z-index: 100;
+  overflow: hidden;
+  padding: 0;
+}
+
+
+.ErrorModal header {
+  background: rgb(100, 23, 119);
+  padding: 6px;
+  margin: 0px;
+  text-align: center;
+  color: white;
+}
+
+.ErrorModal header h2 {
+  margin: 0;
+}
+.content {
+  padding: 3px;
+}

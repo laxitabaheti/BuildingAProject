@@ -3,7 +3,7 @@ import styles from "./UserList.module.css";
 const UserList = (props) => {
   return (
     <div>
-      <Card>
+      <Card className={styles.users}>
         <ul className={styles.ul}>
           {props.users.map((user) => (
             <li className={styles.li} key={props.id}>
